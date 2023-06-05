@@ -1,0 +1,7 @@
+1.Open a text file (lorem.txt) and read its contents into a string buffer.
+2.Split the contents into words.
+3.Clean the words by removing special characters and converting them to lowercase.
+4.Normalize the words using the words_alpha.txt dictionary.
+5.Design classes Word and Text, where Text is a collection of Words, supporting all the functionality to efficiently create and add Words by removing special characters, converting them to lowercase letters, and normalizing the words.
+6.Implement a small program to parse 1.txt and 2.txt files and store the parsing results into a new file, db.txt, Each line of the db.txt is one word parsed from 1.txt or 2.txt stored in the following format “word:1,2”, where “word” is the actual word. The numbers are the names of the files that contain the word (if any of the files have the word, their names should be placed after the colon).
+7.Modify the program and add a simple console user interface for the user to search for a word. The user types a word and the program searches for it in the db.txt and responds with the file names that contain the word.
